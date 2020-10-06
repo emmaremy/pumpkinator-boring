@@ -3,6 +3,8 @@ import cv2
 from sys import argv
 import imageio
 
+# Command line arg: file path to image to pumpkinize
+
 def morph_ops(mask):
     little_kernel = np.ones((2,2), np.uint8)
     kernel = np.ones((3,3), np.uint8)
@@ -28,15 +30,15 @@ def main():
     # Resize everything
     print(pum.shape)
     cols, rows, ch = img.shape
-    print img.shape
+    print(img.shape)
     if rows > cols:
         img_psize = cv2.resize(img, (280, int(280*float(cols)/rows)))
     else:
         img_psize = cv2.resize(img, (int(200*float(rows)/cols), 200))
     cols, rows, ch = img_psize.shape
-    print img_psize.shape
+    print(img_psize.shape)
     roi = pum[135:cols+135, 166:rows+166]
-    print roi.shape
+    print(roi.shape)
 
     # Convert image to grayscale
     gray = cv2.cvtColor(img_psize, cv2.COLOR_BGR2GRAY)
