@@ -10,8 +10,8 @@ The goal: to turn a photo into a low-quality jack o'lantern
 ### How to run
 
 * Clone the repository
-* Create a virtual environment, apparently in Python 2.7 (I really thought I'd done this in 3...)
-* Install requirements using `pip install -r requirements.txt`
+* Create a virtual environment
+* Install requirements using `pip3 install -r requirements.txt`
 * `python pumpkin.py <image_path>`
 * Creates two files: a static version and an animated version
 
