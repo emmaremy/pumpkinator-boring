@@ -4,8 +4,8 @@ The goal: to turn a photo into a low-quality jack o'lantern
 
 ### Example:
 
-<img src="https://github.com/emmaremy/pumpkinator-boring/blob/master/cat.jpg" height="200"> 
-<img src="https://github.com/emmaremy/pumpkinator-boring/blob/master/cat_pumpkin.gif" height="200">
+<img src="https://github.com/emmaremy/pumpkinator-boring/blob/main/cat.jpg" height="200"> 
+<img src="https://github.com/emmaremy/pumpkinator-boring/blob/main/cat_pumpkin.gif" height="200">
 
 ### How to run
 
